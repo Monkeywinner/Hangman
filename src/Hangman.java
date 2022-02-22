@@ -5,7 +5,7 @@ public class Hangman extends GraphicsProgram {
 
     @Override
     public void init(){
-    man = new Man();
+    man = new Man(500);
         add(man);
     }
 
